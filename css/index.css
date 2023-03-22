@@ -1,0 +1,39 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, serif;
+    height: 100vh;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid gray;
+}
+
+header .container nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container nav ul li {
+    list-style: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+table,
+table th,
+table td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+img {
+    max-width: 50%;
+}
