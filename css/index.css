@@ -30,7 +30,7 @@ table,
 table th,
 table td {
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid gray;
     padding: 10px;
 }
 
@@ -47,7 +47,7 @@ img {
     padding-top: 20px;
     width: 10%;
     flex-grow: 1;
-    border: 1px solid black;
+    border: 1px solid gray;
 }
 
 .second {
@@ -55,7 +55,7 @@ img {
     padding-top: 20px;
     width: 10%;
     flex-grow: 3;
-    border: 1px solid black;
+    border: 1px solid gray;
 }
 
 .main > div.container {
@@ -64,7 +64,7 @@ img {
 }
 
 footer {
-    border: 1px solid black;
+    border: 1px solid gray;
     padding: 30px;
     text-align: center;
 }
