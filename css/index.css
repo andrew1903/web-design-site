@@ -37,3 +37,34 @@ table td {
 img {
     max-width: 50%;
 }
+
+.main {
+    display: flex;
+}
+
+.first {
+    text-align: center;
+    padding-top: 20px;
+    width: 10%;
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+.second {
+    text-align: center;
+    padding-top: 20px;
+    width: 10%;
+    flex-grow: 3;
+    border: 1px solid black;
+}
+
+.main > div.container {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+footer {
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+}

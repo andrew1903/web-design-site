@@ -8,6 +8,7 @@ body {
     height: 100vh;
     /*overflow: hidden;*/
 }
+
 /*LOGIN FORM*/
 .form-wrapper {
     position: absolute;
@@ -21,7 +22,7 @@ body {
 .form-wrapper h1 {
     text-align: center;
     padding: 0 0 20px 0;
-    border-bottom:  1px solid silver;
+    border-bottom: 1px solid silver;
 }
 
 .form-wrapper form {
@@ -121,4 +122,3 @@ button:hover {
 .signup_link a:hover {
     text-decoration: underline;
 }
-/*INDEX*/
